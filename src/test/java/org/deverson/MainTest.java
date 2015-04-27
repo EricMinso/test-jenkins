@@ -14,7 +14,7 @@ public class MainTest {
 		System.out.println( "<System.out.println> = Hello Test World ! " );
 		log.info("<log.info> = Hello Test World ! ");
         
-		/// fail("Echec du test");
+		// fail("Echec du test");
     }
 
 }
