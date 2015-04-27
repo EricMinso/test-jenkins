@@ -10,9 +10,10 @@ public class MainTest {
 
     @Test
     public void test() {
-        // fail("Not yet implemented");
 		log.info("<log.info> = Hello Test World ! ");
 		System.out.println( "<System.out.println> = Hello Test World ! " );
+        
+		fail("Echec du test");
     }
 
 }
