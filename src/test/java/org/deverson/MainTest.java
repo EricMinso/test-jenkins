@@ -12,7 +12,7 @@ public class MainTest {
         // fail("Not yet implemented");
 		//log.info("Ce test fonctionne parfaitement !");
         //log.info("Modification...");
-		return
+		System.out.println( "Hello Test World ! " );
     }
 
 }
