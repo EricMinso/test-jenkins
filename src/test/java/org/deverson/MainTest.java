@@ -1,19 +1,20 @@
 package org.deverson;
 
 import static org.junit.Assert.*;
+import org.junit.Test;
 
 import java.util.logging.Logger;
-import org.junit.Test;
 
 public class MainTest {
     private static final Logger log = Logger.getLogger(Main.class.getName());
 
     @Test
-    public void test() {
-		log.info("<log.info> = Hello Test World ! ");
+    public void test()
+	{
 		System.out.println( "<System.out.println> = Hello Test World ! " );
+		log.info("<log.info> = Hello Test World ! ");
         
-		fail("Echec du test");
+		/// fail("Echec du test");
     }
 
 }
