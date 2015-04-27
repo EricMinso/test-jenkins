@@ -11,6 +11,7 @@ public class MainTest {
     public void test() {
         // fail("Not yet implemented");
 		log.info("Ce test fonctionne parfaitement !");
+        log.info("Modification...");
     }
 
 }
